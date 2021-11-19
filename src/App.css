@@ -1,0 +1,13 @@
+#paint {
+  border: 1px solid black;
+  background: #333333;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+#settings {
+  display: block;
+  text-align: center;
+}
