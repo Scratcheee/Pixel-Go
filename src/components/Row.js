@@ -1,5 +1,6 @@
 import React from 'react'
-import '../styles/row.scss'
+import "../scss/custom.scss"
+
 import Pixel from './Pixel';
 
 function Row(props) {

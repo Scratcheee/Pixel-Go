@@ -1,4 +1,48 @@
 @import "properties.scss";
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$black: #222831;
+$grey: #30475e;
+$white: #e8e8e8;
+$red: #f05454;
+
+$darkPrimary: #232125;
+$lightPrimary: #332f35;
+$primary: #746b79;
+$text: #FFF;
+$accent: #cddc39;
+$primaryText: #ccc;
+$secondaryText: #757575;
+$divider: #BDBDBD;
+
+body, html {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: $darkPrimary;
+    color: $primaryText;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Play", sans-serif;
+    text-align: center;
+    min-width: fit-content;
+}
+
+#drawingPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pixels {
+margin-bottom: 2rem;
+}
+
+@import "properties.scss";
 
 #editor {
     border: 1px solid $accent;
@@ -51,7 +95,7 @@
     .button {
         font-size: 1.25rem;
         background-color: $accent;
-        color: $primaryText;
+        color: $darkPrimary;
         padding: 1rem 3rem;
         border-radius: 0.25rem;
         text-transform: uppercase;
@@ -64,11 +108,18 @@
             cursor: pointer;
             background-color: transparent;
             border-color: $accent;
+        color: $primaryText;
+
         }
     }
 
     .circle-picer {
         margin-bottom: 1.5rem !important;
+    }
+
+    .toolButton {
+        background-color: $accent;
+        color: $darkPrimary;
     }
 }
 
@@ -86,11 +137,76 @@
 
 #drawingCanvas {
 
-    border: 2px solid $darkPrimary;
+    border: 2px solid $accent;
+    background-color: $primary;
     min-width: 50rem;
     min-height: 50rem;
     padding: 7rem 2rem;
     margin: 20px;
     justify-content: center;
     align-items: center;
+}
+
+.toolChange {
+    margin: 3rem 2rem;
+    background-color: $accent;
+    color: $darkPrimary;
+    &:hover {
+        cursor: pointer;
+        background-color: transparent;
+        border-color: $accent;
+    color: $primaryText;
+
+    }
+    
+}
+
+.pixel {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.row {
+    display: flex;
+    width: fit-content;
+}
+
+.mainBody {
+    display: flex;
+    margin-top: 2rem;
+    
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demoImage {
+    width: 70%;
+    margin: 5rem;
+
+}
+
+.icon {
+    margin: 2rem;
+}
+
+.externalLinks {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
 }
