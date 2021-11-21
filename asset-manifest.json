@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Pixel-Go/static/css/main.519daed8.chunk.css",
-    "main.js": "/Pixel-Go/static/js/main.fdb33d06.chunk.js",
-    "main.js.map": "/Pixel-Go/static/js/main.fdb33d06.chunk.js.map",
+    "main.css": "/Pixel-Go/static/css/main.a52dff94.chunk.css",
+    "main.js": "/Pixel-Go/static/js/main.dfa76c54.chunk.js",
+    "main.js.map": "/Pixel-Go/static/js/main.dfa76c54.chunk.js.map",
     "runtime-main.js": "/Pixel-Go/static/js/runtime-main.5066dcb3.js",
     "runtime-main.js.map": "/Pixel-Go/static/js/runtime-main.5066dcb3.js.map",
     "static/js/2.8d0da98c.chunk.js": "/Pixel-Go/static/js/2.8d0da98c.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.c5a8b31e.chunk.js": "/Pixel-Go/static/js/3.c5a8b31e.chunk.js",
     "static/js/3.c5a8b31e.chunk.js.map": "/Pixel-Go/static/js/3.c5a8b31e.chunk.js.map",
     "index.html": "/Pixel-Go/index.html",
-    "static/css/main.519daed8.chunk.css.map": "/Pixel-Go/static/css/main.519daed8.chunk.css.map",
+    "static/css/main.a52dff94.chunk.css.map": "/Pixel-Go/static/css/main.a52dff94.chunk.css.map",
     "static/js/2.8d0da98c.chunk.js.LICENSE.txt": "/Pixel-Go/static/js/2.8d0da98c.chunk.js.LICENSE.txt",
     "static/media/mainscreen.e681c237.png": "/Pixel-Go/static/media/mainscreen.e681c237.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5066dcb3.js",
     "static/js/2.8d0da98c.chunk.js",
-    "static/css/main.519daed8.chunk.css",
-    "static/js/main.fdb33d06.chunk.js"
+    "static/css/main.a52dff94.chunk.css",
+    "static/js/main.dfa76c54.chunk.js"
   ]
 }
