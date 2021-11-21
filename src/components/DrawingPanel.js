@@ -10,10 +10,12 @@ function DrawingPanel(props) {
     const panelRef = useRef()
 
     let rows = []
-
+    
+    //Create an amount of rows of pixels to match the chosen height of the canvas
     for (let i = 0; i < height; i++) {
         rows.push(<Row key={i} width={width} selectedColor={selectedColor} />)
     }
+
     return (
         <div id='drawingPanel'>
            <div id="pixels" ref={panelRef}>

@@ -8,6 +8,8 @@ function Pixel(props) {
     const [oldColor, setOldColor] = useState(pixelColor)
     const [canChangeColor, setCanChangeColor] = useState(true)
 
+
+    
     const applyColor = () => {
         setPixelColor(selectedColor)
         setCanChangeColor(false)
